@@ -1,7 +1,59 @@
 *, body {
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 header {
-	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+	border-bottom: 1px solid lightgrey;
+    height: 110px;
+}
+
+.leftMenu, .logo, .rightMenu {
+	width: 100%;
+	margin: auto;
+}
+
+.leftMenu li {
+	float: left;
+	margin-left: 25px;
+    list-style: none;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo h1 {
+    font-size: 3em;
+    letter-spacing: .2em;
+    font-weight: 800;
+}
+
+.logo p {
+	font-variant: all-petite-caps;
+	font-weight: bold;
+	margin-top: -6px;
+}
+
+.rightMenu li {
+	float: right;
+	margin-right: 25px;
+    list-style: none;
+}
+
+main {
+	max-width: 1280px;
+	margin: auto;
+}
+
+.content {
+	width: 100%;
+}
+
+.slider img {
+	width: 100%;
 }
